@@ -11,7 +11,7 @@ The registration states that imaging files would be downloaded only after it was
 |---|---|
 | 00:32 | Phenotype audit committed. This was disclosed in the registration |
 | 00:37–00:43 | Pilot participant (sub-11002) T1w + BOLD downloaded. NIfTI headers, motion, ROI-coverage and registration QC were inspected, and the QC registration image was viewed |
-| 00:56 onward | Batch preprocessing started under a **different** pipeline. By 01:30 UTC, 12 participants had been processed. Their connectivity values were written to `derivatives/oxtfc/*/_qc.json` and pushed to GitHub (commits `9d7b5bf`, `0f954d8`) |
+| 00:56 onward | Batch preprocessing started under a **different** pipeline. By 01:30 UTC, 12 participants had been processed (25 by the time the batch fully stopped). Their connectivity values were written to `derivatives/oxtfc/*/_qc.json` and pushed to GitHub (commits `9d7b5bf`, `0f954d8`) |
 | 01:30 (if 03:30 is UTC+2) | OSF registration |
 | ≈ 02:00 | Batch stopped after 15 participants once the OSF plan was received |
 

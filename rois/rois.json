@@ -1,0 +1,72 @@
+{
+  "AMY": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-AMY_mask.nii.gz",
+    "n_vox": 672,
+    "centroid_mni": [
+      2.2,
+      -4.2,
+      -18.1
+    ],
+    "sha256_data": "aa7a1f8c11911a7dc66de6841442cd484ab617171af3b613d6e7b07eb44096a7"
+  },
+  "AMY_L": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-AMY_L_mask.nii.gz",
+    "n_vox": 306,
+    "centroid_mni": [
+      -22.6,
+      -4.9,
+      -18.1
+    ],
+    "sha256_data": "f3aeed80540a6c79df99eba35169218bb966725a8c208169bb488e7fb252c21d"
+  },
+  "AMY_R": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-AMY_R_mask.nii.gz",
+    "n_vox": 366,
+    "centroid_mni": [
+      23.0,
+      -3.7,
+      -18.1
+    ],
+    "sha256_data": "d223ca6bd91d14f6b73d7f22b967676981e7802d12badcc74d0ce6a2dd2fe167"
+  },
+  "MPFC": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-MPFC_mask.nii.gz",
+    "n_vox": 552,
+    "centroid_mni": [
+      -1.0,
+      49.0,
+      -5.0
+    ],
+    "sha256_data": "b3e3c2203c3bec46966184a11dc487b23fa86966e6f8016ece4abe76c54d2d12"
+  },
+  "AINS": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-AINS_mask.nii.gz",
+    "n_vox": 1270,
+    "centroid_mni": [
+      2.2,
+      12.0,
+      -3.6
+    ],
+    "sha256_data": "f38649a3d5e1ac30e237c2c127ef566c983be3b8ee156bc10d71605260081ae8"
+  },
+  "WM": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-WM_mask.nii.gz",
+    "n_vox": 10508,
+    "centroid_mni": [
+      0.6,
+      -10.6,
+      22.6
+    ],
+    "sha256_data": "601d97e150dc006fc20569e97dbcaa23f308aa8005ed807a2f4f45f68993b33d"
+  },
+  "CSF": {
+    "file": "space-MNI152NLin6Asym_res-02_desc-CSF_mask.nii.gz",
+    "n_vox": 1955,
+    "centroid_mni": [
+      -0.2,
+      -11.7,
+      14.6
+    ],
+    "sha256_data": "fb74e54e3715a8101660a8383674f7a9b368e399dca2fb74a359fd9db421d972"
+  }
+}

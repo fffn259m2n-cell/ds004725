@@ -13,3 +13,5 @@ __pycache__/
 derivatives/oxtfc/logs/
 derivatives/oxtfc/batch.log
 derivatives/oxtfc/qc_montage_*.png
+derivatives/prereg_v1/logs/
+derivatives/prereg_v1/batch.log
