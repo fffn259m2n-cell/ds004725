@@ -1,0 +1,40 @@
+{
+  "participant_id": "sub-11024",
+  "tr": 2.0,
+  "n_vols_raw": 240,
+  "n_vols_after_dummy": 236,
+  "mean_fd": 0.27463472444962694,
+  "max_fd": 1.0219600545807752,
+  "n_keep": 184,
+  "n_keep_strict": 75,
+  "mean_fd_strict_flag": false,
+  "roi_coverage": {
+    "amygdala": 0.9241071428571429,
+    "mpfc": 0.3073770491803279,
+    "antinsula": 1.0
+  },
+  "roi_tsnr": {
+    "amygdala": 70.73458099365234,
+    "mpfc": 47.989990234375,
+    "antinsula": 90.77288818359375
+  },
+  "whole_brain_tsnr": 102.44969177246094,
+  "norm_r": 0.6997787971530975,
+  "n_wm_vox": 0,
+  "n_csf_vox": 44491,
+  "signals_finite": false,
+  "fc": {
+    "amygdala_mpfc": null,
+    "amygdala_antinsula": null
+  },
+  "fc_gsr": {
+    "amygdala_mpfc": null,
+    "amygdala_antinsula": null
+  },
+  "fc_strict": {},
+  "versions": {
+    "antspyx": "0.6.3",
+    "nilearn": "0.14.1"
+  },
+  "runtime_s": 261.4
+}

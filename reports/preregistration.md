@@ -1,5 +1,7 @@
 # Pre-registered analysis plan: frozen before any group-level FC is computed
 
+> **SUPERSEDED (2026-11-08):** the governing pre-registration is OSF osf.io/8yqun. This file was an internal working plan. See `reports/osf_reconciliation.md` for the differences and the foreknowledge disclosure.
+
 **Frozen:** 2026-11-08, in the git commit that adds this file. All later deviations are logged in §9.
 **Already known when this was written:** the Stage 1 phenotype audit (`reports/feasibility.md`) and the literature (`literature/novelty_matrix.md`). The author has seen BOLD/T1 headers for one pilot participant (sub-11002). No functional-connectivity values from any participant had been computed when this file was frozen.
 **Status:** gate AMBER, so this is an **exploratory estimation study**.
