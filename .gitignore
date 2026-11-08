@@ -10,3 +10,6 @@ derivatives/phenotype_audit/
 __pycache__/
 .pytest_cache/
 *.pyc
+derivatives/oxtfc/logs/
+derivatives/oxtfc/batch.log
+derivatives/oxtfc/qc_montage_*.png
