@@ -36,3 +36,13 @@ Related work from the same lab but other cohorts: Polk et al. 2022 *Phil Trans B
 The estimand is not already published, so there is no stop condition. Proceed under the AMBER framing:
 - Primary analysis: T × z(AVP) on amygdala–mPFC FC, **adjusting for T × age**. This is an estimation study.
 - Add a **replication anchor**: the main OT effect on amygdala–mPFC FC, as a check of the pipeline against Ebner 2016. It is not a new claim.
+
+## Conceptual precedent outside this dataset (added 2026-11-08)
+
+| Study | Design | Moderator → outcome | Relevance |
+|---|---|---|---|
+| Parker et al. 2017, *PNAS* 114:8119 ([doi](https://doi.org/10.1073/pnas.1705521114)) | RCT, 32 children with ASD, 4 weeks of intranasal OT | **Pre-treatment blood OT predicted treatment response**: the lowest baseline OT showed the greatest social improvement (SRS) | The *idea* that baseline peptide biology moderates the response to OT is published, though for behaviour in a clinical paediatric sample rather than brain connectivity |
+| Lancaster et al. 2015, *Front Hum Neurosci* ([doi](https://doi.org/10.3389/fnhum.2015.00132)) | 37 men, no administration | Plasma OT ↔ task fMRI (mPFC, TPJ) | Endogenous OT relates to brain function; no drug × biomarker test |
+| Hecht et al. 2017, *NeuroImage* ([doi](https://doi.org/10.1016/j.neuroimage.2016.12.046)); Schmidt et al. 2020, *Transl Psychiatry* ([doi](https://doi.org/10.1038/s41398-020-00885-4)) | Intranasal OT, task fMRI | *Behavioural* baseline moderators of the OT brain response | Moderation of the OT brain response by baseline traits, not plasma peptides |
+
+**Framing:** what is new (provisionally) is the specific combination: randomized acute OT × screening plasma **AVP** (and OT) → **resting-state** amygdala–prefrontal FC in healthy younger and older adults. The general hypothesis that "baseline OT biology predicts OT response" is not new (Parker 2017). The PubMed search `(pretreatment OR baseline OR endogenous) (plasma OR blood OR salivary) (oxytocin OR vasopressin) predict* response intranasal oxytocin (connectivity OR fMRI OR amygdala)` returned 0 records on 2026-11-08.
