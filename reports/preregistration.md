@@ -118,3 +118,5 @@ Diagnostics:
 | D2 | Model adds T × age_c | Required by the Stage 1 finding r(AVP, age) = .40 and the published T × age effects |
 | D3 | Dataset v1.0.2 rather than 1.0.1 | Only the README/DOI changed between versions |
 | D4 | No OT/AVP ratio | Dropped because of the strong anticorrelation and the unextracted assay |
+| D5 | Normalization QC rule changed from "r < 0.80" to "r < sample median − 3·MAD, plus visual review of every participant's QC montage" | Pilot (sub-11002) was well registered on visual inspection but had r = 0.69, because the metric compares a skull-stripped T1 with the template brain across contrasts. Logged 2026-11-08 after the pilot only, before any group FC was read |
+| D6 | Pipeline parameters checked on the pilot only: Power FD from ANTs rigid parameters (mean 0.30–0.33 mm across 4 estimator variants, ~7% of frames > 0.5 mm) | Kept the pre-registered estimator. Recorded so readers know the FD scale is higher than typical FSL MCFLIRT values |
