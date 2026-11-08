@@ -1,0 +1,129 @@
+{
+  "id_validation": {
+    "n_participants_tsv": 87,
+    "n_phenotype_tsv": 87,
+    "n_subject_dirs": 87,
+    "dup_participants_tsv": 0,
+    "dup_phenotype_tsv": 0,
+    "in_participants_not_phenotype": [],
+    "in_phenotype_not_participants": [],
+    "in_participants_no_dir": [],
+    "dir_not_in_participants": [],
+    "bad_id_format": []
+  },
+  "invalid_treatment_codes": [],
+  "treatment_counts": {
+    "OT": 45,
+    "PL": 42
+  },
+  "cohort_counts": {
+    "younger": 44,
+    "older": 43
+  },
+  "flags": {
+    "blood_clock_h": {
+      "ok": 78,
+      "single_digit_minutes": 7,
+      "implausible": 2
+    },
+    "saliva_clock_h": {
+      "ok": 87
+    },
+    "rest_clock_h": {
+      "ok": 82,
+      "implausible": 5
+    },
+    "contraception_codes": {
+      "NaN": 66,
+      "2": 13,
+      "1": 8
+    },
+    "merge_indicator": {
+      "both": 87,
+      "left_only": 0,
+      "right_only": 0
+    }
+  },
+  "apoe_reported_matches_snps": true,
+  "apoe_reported_levels": {
+    "e3e3": 44,
+    "e3e4": 22,
+    "e2e3": 11,
+    "e4e4": 3,
+    "e2e4": 2
+  },
+  "imaging": {
+    "n_bold_symlinks": 87,
+    "n_t1_symlinks": 87,
+    "n_bold_content_local": 0,
+    "total_bold_GB": 10.107,
+    "total_t1_GB": 1.764,
+    "tr_counts": {
+      "2.0": 85,
+      "2.5": 2
+    }
+  },
+  "spearman_logAVP_logOT": {
+    "rho": -0.6412358592136884,
+    "p": 2.9086523182649123e-11,
+    "n": 86
+  },
+  "id_prefix_vs_cohort_sex": {
+    "1|1": {
+      "older|F": 0,
+      "older|M": 0,
+      "younger|F": 0,
+      "younger|M": 23
+    },
+    "1|2": {
+      "older|F": 0,
+      "older|M": 0,
+      "younger|F": 21,
+      "younger|M": 0
+    },
+    "2|1": {
+      "older|F": 0,
+      "older|M": 19,
+      "younger|F": 0,
+      "younger|M": 0
+    },
+    "2|2": {
+      "older|F": 24,
+      "older|M": 0,
+      "younger|F": 0,
+      "younger|M": 0
+    }
+  },
+  "missing_biomarker_rows": [
+    {
+      "treatment_group": "OT",
+      "cohort": "older"
+    }
+  ],
+  "implausible_clock_values": {
+    "blood": [
+      "0",
+      "1.05"
+    ],
+    "rest": [
+      "11.80",
+      "11.80",
+      "11.90",
+      "11.90",
+      "11.90"
+    ]
+  },
+  "blood_draw_after_treatment": [
+    {
+      "treatment_group": "PL",
+      "cohort": "younger",
+      "days_blood_to_scan": -5.0
+    },
+    {
+      "treatment_group": "PL",
+      "cohort": "younger",
+      "days_blood_to_scan": -8.0
+    }
+  ],
+  "blood_interval_missing": 1
+}

@@ -1,0 +1,13 @@
+[project]
+name = "ds004725-oxt-avp-fc"
+version = "0.1.0"
+description = "Secondary analysis of OpenNeuro ds004725: does screening plasma AVP/OT moderate the effect of intranasal OT on resting-state amygdala-mPFC connectivity?"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2", "numpy>=1.26", "scipy>=1.11", "statsmodels>=0.14",
+  "matplotlib>=3.8", "nibabel>=5.2", "datalad>=1.0",
+]
+[project.optional-dependencies]
+test = ["pytest>=8"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

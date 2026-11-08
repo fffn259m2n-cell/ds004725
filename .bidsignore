@@ -1,0 +1,10 @@
+CLAUDE.md
+PROJECT_README.md
+pyproject.toml
+src/
+tests/
+scripts/
+results/
+reports/
+literature/
+data/

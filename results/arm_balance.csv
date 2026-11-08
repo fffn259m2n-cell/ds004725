@@ -1,0 +1,11 @@
+variable,mean_OT,mean_PL,smd_OT_minus_PL
+age,44.8284,48.2388,-0.1367
+log_avp,4.8905,4.9354,-0.2989
+log_ot,6.6715,6.6624,0.052
+days_blood_to_scan,30.8889,17.6098,0.4781
+blood_clock_h,9.9087,9.8736,0.0608
+rest_clock_h,10.6601,10.7047,-0.0516
+bmi,23.5293,25.8724,-0.5741
+years_of_education,15.9545,16.1667,-0.0754
+prop_female,0.4889,0.5476,
+prop_older,0.4667,0.5238,

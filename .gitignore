@@ -1,0 +1,12 @@
+# Never commit image content or bulky derivatives (annex symlinks stay tracked)
+derivatives/fmriprep/
+derivatives/work/
+derivatives/**/*.nii
+derivatives/**/*.nii.gz
+derivatives/**/*.h5
+# Row-level frame contains participant IDs joined to genotype/biomarkers;
+# regenerate locally with src/audit_phenotype.py instead of redistributing
+derivatives/phenotype_audit/
+__pycache__/
+.pytest_cache/
+*.pyc

@@ -1,0 +1,11 @@
+step,n_remaining,n_OT,n_PL,n_younger,n_older
+listed in participants.tsv,87,45,42,44,43
+valid treatment code (OT/PL),87,45,42,44,43
+in phenotype table,87,45,42,44,43
+non-missing plasma AVP,86,44,42,44,42
+non-missing plasma OT,86,44,42,44,42
+blood draw known to PRECEDE dosing (days > 0),83,44,39,41,42
+resting BOLD file in dataset,83,44,39,41,42
+T1w file in dataset,83,44,39,41,42
+age and sex non-missing,83,44,39,41,42
+[sensitivity] TR == 2.0s,82,44,38,40,42

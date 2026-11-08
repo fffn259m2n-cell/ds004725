@@ -1,0 +1,57 @@
+group,variable,n,n_missing,pct_missing
+all,plasma AVP,87,1,1.1
+all,plasma OT,87,1,1.1
+all,blood-to-scan days,87,1,1.1
+all,blood draw clock time (missing/implausible),87,2,2.3
+all,rest scan clock time (missing/implausible),87,5,5.7
+all,APOE genotype,87,5,5.7
+all,BMI,87,0,0.0
+all,education,87,1,1.1
+OT|older,plasma AVP,21,1,4.8
+OT|older,plasma OT,21,1,4.8
+OT|older,blood-to-scan days,21,0,0.0
+OT|older,blood draw clock time (missing/implausible),21,1,4.8
+OT|older,rest scan clock time (missing/implausible),21,0,0.0
+OT|older,APOE genotype,21,0,0.0
+OT|older,BMI,21,0,0.0
+OT|older,education,21,1,4.8
+OT|younger,plasma AVP,24,0,0.0
+OT|younger,plasma OT,24,0,0.0
+OT|younger,blood-to-scan days,24,0,0.0
+OT|younger,blood draw clock time (missing/implausible),24,0,0.0
+OT|younger,rest scan clock time (missing/implausible),24,2,8.3
+OT|younger,APOE genotype,24,1,4.2
+OT|younger,BMI,24,0,0.0
+OT|younger,education,24,0,0.0
+PL|older,plasma AVP,22,0,0.0
+PL|older,plasma OT,22,0,0.0
+PL|older,blood-to-scan days,22,0,0.0
+PL|older,blood draw clock time (missing/implausible),22,1,4.5
+PL|older,rest scan clock time (missing/implausible),22,2,9.1
+PL|older,APOE genotype,22,3,13.6
+PL|older,BMI,22,0,0.0
+PL|older,education,22,0,0.0
+PL|younger,plasma AVP,20,0,0.0
+PL|younger,plasma OT,20,0,0.0
+PL|younger,blood-to-scan days,20,1,5.0
+PL|younger,blood draw clock time (missing/implausible),20,0,0.0
+PL|younger,rest scan clock time (missing/implausible),20,1,5.0
+PL|younger,APOE genotype,20,1,5.0
+PL|younger,BMI,20,0,0.0
+PL|younger,education,20,0,0.0
+OT,plasma AVP,45,1,2.2
+OT,plasma OT,45,1,2.2
+OT,blood-to-scan days,45,0,0.0
+OT,blood draw clock time (missing/implausible),45,1,2.2
+OT,rest scan clock time (missing/implausible),45,2,4.4
+OT,APOE genotype,45,1,2.2
+OT,BMI,45,0,0.0
+OT,education,45,1,2.2
+PL,plasma AVP,42,0,0.0
+PL,plasma OT,42,0,0.0
+PL,blood-to-scan days,42,1,2.4
+PL,blood draw clock time (missing/implausible),42,1,2.4
+PL,rest scan clock time (missing/implausible),42,3,7.1
+PL,APOE genotype,42,4,9.5
+PL,BMI,42,0,0.0
+PL,education,42,0,0.0

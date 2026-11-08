@@ -1,0 +1,6 @@
+treatment_group,cohort,F,M,All
+OT,older,11,10,21
+OT,younger,11,13,24
+PL,older,13,9,22
+PL,younger,10,10,20
+All,,45,42,87
