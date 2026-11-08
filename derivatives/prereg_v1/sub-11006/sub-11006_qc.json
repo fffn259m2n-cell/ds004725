@@ -1,0 +1,43 @@
+{
+ "participant_id": "sub-11006",
+ "version": "prereg-v1.0-impl1",
+ "tr": 2.0,
+ "status": "ok",
+ "n_vols_raw": 240,
+ "voxel_size": [
+  3.1500000953674316,
+  3.1500000953674316,
+  3.5
+ ],
+ "reg_r": -0.1434978300534363,
+ "epi_vs_template_mask_dice": 0.8265385304124634,
+ "n_vox_AMY": 95,
+ "n_vox_AMY_L": 45,
+ "n_vox_AMY_R": 50,
+ "n_vox_MPFC": 65,
+ "n_vox_AINS": 131,
+ "n_vox_WM": 1241,
+ "n_vox_CSF": 223,
+ "coverage": {
+  "AMY": 1.0,
+  "AMY_L": 1.0,
+  "AMY_R": 1.0,
+  "MPFC": 1.0,
+  "AINS": 1.0,
+  "WM": 1.0,
+  "CSF": 1.0
+ },
+ "mean_fd": 0.18840914630144684,
+ "max_fd": 0.559988129343621,
+ "n_vols": 236,
+ "n_keep": 232,
+ "minutes_retained": 7.733333333333333,
+ "prop_censored": 0.016949152542372836,
+ "n_keep_fd03": 208,
+ "signals_finite": true,
+ "software": {
+  "antspyx": "0.6.3",
+  "nilearn": "0.14.1"
+ },
+ "runtime_s": 170.0
+}
