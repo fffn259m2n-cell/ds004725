@@ -206,9 +206,11 @@ def run(sub: str, root: Path, threads: int) -> dict:
                            deriv(conf_df[["global"]].to_numpy())])
     keep = censor_mask(fd, FD_THRESH)
     keep_s = censor_mask(fd, FD_THRESH_STRICT)
-    fc = fisher_fc(sig, base, keep, tr)
-    fc_gsr = fisher_fc(sig, gsr, keep, tr)
-    fc_strict = fisher_fc(sig, base, keep_s, tr) if keep_s.sum() > 20 else {}
+    finite = bool(np.isfinite(sig.to_numpy()).all() and np.isfinite(gsr).all())
+    nan_fc = {"amygdala_mpfc": None, "amygdala_antinsula": None}
+    fc = fisher_fc(sig, base, keep, tr) if finite else nan_fc
+    fc_gsr = fisher_fc(sig, gsr, keep, tr) if finite else nan_fc
+    fc_strict = fisher_fc(sig, base, keep_s, tr) if finite and keep_s.sum() > 20 else {}
 
     sig.to_csv(out / f"{sub}_timeseries.tsv", sep="\t", index=False,
                float_format="%.4f")
@@ -222,6 +224,7 @@ def run(sub: str, root: Path, threads: int) -> dict:
         "mean_fd_strict_flag": bool(fd.mean() > FD_THRESH_STRICT),
         "roi_coverage": cov, "roi_tsnr": tsnr, "whole_brain_tsnr": whole_tsnr,
         "norm_r": norm_r, "n_wm_vox": int(wm_u.sum()), "n_csf_vox": int(csf_u.sum()),
+        "signals_finite": finite,
         "fc": fc, "fc_gsr": fc_gsr, "fc_strict": fc_strict,
         "versions": {"antspyx": ants.__version__,
                      "nilearn": __import__("nilearn").__version__},

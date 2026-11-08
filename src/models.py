@@ -27,6 +27,7 @@ def load_qc(qc_dir: Path = QC_DIR) -> pd.DataFrame:
         r = {k: q[k] for k in ("participant_id", "tr", "mean_fd", "max_fd",
                                "n_keep", "n_keep_strict", "norm_r",
                                "whole_brain_tsnr")}
+        r["signals_finite"] = q.get("signals_finite", True)
         for k, v in q["roi_coverage"].items():
             r[f"cov_{k}"] = v
         for k, v in q["roi_tsnr"].items():
@@ -47,7 +48,8 @@ def qc_exclusions(qc: pd.DataFrame) -> pd.DataFrame:
     q["flag_nkeep"] = q.n_keep < 150
     q["flag_cov"] = q[[c for c in q if c.startswith("cov_")]].min(1) < 0.5
     q["flag_norm_review"] = q.norm_r < med - 3 * mad
-    q["qc_pass"] = ~(q.flag_fd | q.flag_nkeep | q.flag_cov)
+    q["flag_signal"] = ~q.get("signals_finite", pd.Series(True, index=q.index)).astype(bool)
+    q["qc_pass"] = ~(q.flag_fd | q.flag_nkeep | q.flag_cov | q.flag_signal)
     return q
 
 
@@ -174,7 +176,7 @@ def main() -> None:
     flow = [("Stage-1 eligible", len(base))]
     have = base.merge(qc, on="participant_id")
     flow.append(("preprocessed (qc.json present)", len(have)))
-    for f in ("flag_fd", "flag_nkeep", "flag_cov"):
+    for f in ("flag_fd", "flag_nkeep", "flag_cov", "flag_signal"):
         flow.append((f"excluded by {f}", int(have[f].sum())))
     ana = have[have.qc_pass]
     flow.append(("analysed (primary)", len(ana)))
